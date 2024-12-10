@@ -1,7 +1,6 @@
 import React from "react";
 import Grid from "@mui/material/Grid";
 import Paper from "@mui/material/Paper";
-
 const GridComponent = () => {
   return (
     <Grid container spacing={2}>
@@ -13,5 +12,4 @@ const GridComponent = () => {
     </Grid>
   );
 };
-
 export default GridComponent;

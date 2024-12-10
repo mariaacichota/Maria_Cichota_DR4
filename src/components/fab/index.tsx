@@ -9,5 +9,4 @@ const FabComponent = () => {
     </Fab>
   );
 };
-
 export default FabComponent;

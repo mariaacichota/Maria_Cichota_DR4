@@ -1,6 +1,5 @@
 import React from "react";
 import Typography from "@mui/material/Typography";
-
 const TypographyComponent = ({
   text,
   variant,
@@ -10,5 +9,4 @@ const TypographyComponent = ({
 }) => {
   return <Typography variant={variant}>{text}</Typography>;
 };
-
 export default TypographyComponent;

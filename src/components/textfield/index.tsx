@@ -1,6 +1,5 @@
 import React from "react";
 import TextField from "@mui/material/TextField";
-
 const TextFieldComponent = ({
   label,
   type,
@@ -18,5 +17,4 @@ const TextFieldComponent = ({
     />
   );
 };
-
 export default TextFieldComponent;

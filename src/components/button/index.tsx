@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, ButtonProps } from "@mui/material";
+import Button from "@mui/material/Button";
 
 const CustomButton = ({ label }: { label: string }) => {
   return <Button variant="contained">{label}</Button>;

@@ -23,5 +23,4 @@ const DateTimePickerComponent = ({ ...props }) => {
     </LocalizationProvider>
   );
 };
-
 export default DateTimePickerComponent;
