@@ -1,12 +1,12 @@
-import React from "react";
-import Fab from "@mui/material/Fab";
-import AddIcon from "@mui/icons-material/Add";
+import { Fab, FabProps } from "@mui/material";
 
-const FabComponent = () => {
-  return (
-    <Fab color="primary" aria-label="add">
-      <AddIcon />
-    </Fab>
-  );
+interface IFabProps extends FabProps {
+  children?: React.ReactNode;
+  props: any;
+}
+
+const FabComponent: React.FC<IFabProps> = ({ children, ...props }) => {
+  return <Fab {...props}>{children}</Fab>;
 };
+
 export default FabComponent;
