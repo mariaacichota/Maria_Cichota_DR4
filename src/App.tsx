@@ -1,11 +1,12 @@
-import AppProvider from "./Context";
-import Routes from "./routes";
+// import AppProvider from "./Context";
+// import Routes from "./routes";
 
 const App: React.FC = () => {
   return (
-    <AppProvider>
-      <Routes />
-    </AppProvider>
+    // <AppProvider>
+    //    <Routes />
+    // </AppProvider>
+    ""
   );
 };
 
